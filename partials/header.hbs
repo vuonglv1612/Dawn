@@ -32,11 +32,11 @@
             <div class="container">
                 <nav class="mobile-nav">
                     {{navigation}}
-                    {{#if @member}}
+                    {{!-- {{#if @member}}
                         <button class="button-text menu-item members-account" data-portal="account">Account</button>
                         {{#unless @member.paid}}
                             <button class="button-text menu-item menu-item-cta members-upgrade" data-portal="account/plans">Upgrade</button>
-                        {{/unless}}
+                        {{/unless}} --}}
                     {{!-- {{else}}
                         <button class="button-text menu-item members-login" data-portal="signin">Đăng nhập</button>
                         <button class="button-text menu-item menu-item-cta members-subscribe" data-portal="signup">Đăng ký</button>
@@ -46,12 +46,12 @@
         </div>
     {{/if}}
     <div class="header-right hidden-xs hidden-sm hidden-md">
-        {{#if @member}}
+        {{!-- {{#if @member}}
             <button class="button-text menu-item members-account" data-portal="account">Account</button>
             {{#unless @member.paid}}
                 <button class="button-text menu-item menu-item-cta members-upgrade" data-portal="account/plans">Upgrade</button>
             {{/unless}}
-        {{!-- {{else}}
+        {{else}}
             <button class="button-text menu-item members-login" data-portal="signin">Đăng nhập</button>
             <button class="button-text menu-item menu-item-cta members-subscribe" data-portal="signup">Đăng ký</button>
         {{/if}} --}}
